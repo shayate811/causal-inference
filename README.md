@@ -49,7 +49,7 @@ cd causal-inference
 
 VS Codeでフォルダを開きます。
 
-左下の緑色のアイコン（><）をクリックし、"Reopen in Container" を選択します。
+左下の緑色のアイコン（><）をクリックし、"Reopen in Container" を選択します。（vscodeの拡張機能 DevContainersが必要）
 
 自動的にDockerイメージのビルドとライブラリのインストールが始まります（初回は数分かかります）。
 
