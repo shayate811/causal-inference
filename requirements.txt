@@ -1,0 +1,16 @@
+# Core analysis
+numpy<2.0.0
+pandas>=2.0.0
+matplotlib
+seaborn
+statsmodels
+
+# Causal Inference & Graph (Version Pinned for Reproducibility)
+# pgmpy 1.0.0以降はAPIが大きく変わるため、記事のコードが動く0.1.25に固定
+pgmpy==0.1.25
+networkx
+daft
+
+# Jupyter Environment
+jupyter
+ipykernel

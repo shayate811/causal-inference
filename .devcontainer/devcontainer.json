@@ -1,0 +1,26 @@
+{
+	"name": "Causal Inference Demo",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"settings": {
+		// コンテナ起動時にPythonのパスを自動設定
+		"python.defaultInterpreterPath": "/usr/local/bin/python"
+	},
+	// 自動的にインストールしたいVS Code拡張機能
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"njpwerner.autodocstring" // 余裕があれば。docstring生成に便利
+			]
+		}
+	},
+	// コンテナ作成後に実行するコマンド（必要なら）
+	// "postCreateCommand": "pip install -r requirements.txt",
+	
+	// コンテナユーザーの設定（Microsoftイメージのデフォルトユーザー）
+	"remoteUser": "vscode"
+}
