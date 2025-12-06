@@ -10,7 +10,7 @@
 
 回帰分析（OLS）による相関の確認から、ベイズネットワークを用いた**因果構造探索（Causal Discovery）**までを行い、データから真の因果グラフ（DAG）を自動的に導出するプロセスを実装しています。
 
-🔗 **解説記事 (Zenn):** []
+🔗 **解説記事 (Zenn):** [https://zenn.dev/shayate811/articles/causal-inference]
 
 ## 🏗️ Architecture & MLOps
 
