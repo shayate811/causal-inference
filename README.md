@@ -45,7 +45,7 @@ git clone https://github.com/shayate811/causal-inference.git
 cd causal-inference
 ```
 
--Open in Dev Container
+**-Open in Dev Container**
 
 VS Codeでフォルダを開きます。
 
@@ -53,7 +53,7 @@ VS Codeでフォルダを開きます。
 
 自動的にDockerイメージのビルドとライブラリのインストールが始まります（初回は数分かかります）。
 
--Run the Notebook
+**-Run the Notebook**
 
 analysis.ipynb を開き、セルを上から順に実行してください。
 
